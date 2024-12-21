@@ -90,7 +90,7 @@ def create_inline_keyboard():
     button3 = types.InlineKeyboardButton(
         text="😔 𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 😔", url="https://t.me/golemxddos")
     button1 = types.InlineKeyboardButton(text="💔 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗢𝘄𝗻𝗲𝗿 💔",
-        url="https://t.me/golemxddos")
+        url="@GOLEM_OWNER")
     markup.add(button3)
     markup.add(button1)
     return markup
